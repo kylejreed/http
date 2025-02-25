@@ -1,0 +1,31 @@
+{
+  "name": "@lrn2reed/http",
+  "description": "Http router using Bun",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "bun run build.ts",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-plugin-dts": "^0.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0",
+    "zod": "^3.24.2"
+  },
+  "dependencies": {},
+  "files": [
+    "dist"
+  ],
+  "license": "MIT"
+}
