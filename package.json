@@ -27,5 +27,12 @@
   "files": [
     "dist"
   ],
+  "homepage": "https://github.com/kylejreed/http#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylejreed/http.git"
+  },
+  "bugs": "https://github.com/kylejreed/http/issues",
+  "author": "Kyle Reed <kylejreed2@gmail.com>",
   "license": "MIT"
 }
