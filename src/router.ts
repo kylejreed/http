@@ -162,7 +162,7 @@ type RouterCtorOpts = {
     handler: (r: Request) => Promise<Response>;
   };
 };
-export default class Router {
+export class Router {
   DEBUG_MODE = false;
   private root: TrieNode = new TrieNode();
   private routes: Record<string, Handler> = {}; // Replacing Map with object
